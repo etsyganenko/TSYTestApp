@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EC25285976226CEF59237FF /* libPods-TSYTestApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F420C4E9C1AF69E606740E66 /* libPods-TSYTestApp.a */; };
+		8A20C2871C034046007D6CA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A20C2861C034046007D6CA0 /* main.m */; };
+		8A20C28A1C034046007D6CA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A20C2891C034046007D6CA0 /* AppDelegate.m */; };
+		8AFD1CB21C05E138000335FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A20C2891C034046007D6CA0 /* AppDelegate.m */; };
+		8AFD1CB91C05E150000335FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A20C2861C034046007D6CA0 /* main.m */; };
+		8AFD1CCA1C05E503000335FA /* TSYCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD1CC01C05E503000335FA /* TSYCameraView.m */; };
+		8AFD1CCB1C05E503000335FA /* TSYCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD1CC21C05E503000335FA /* TSYCameraViewController.m */; };
+		8AFD1CCC1C05E503000335FA /* TSYCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AFD1CC31C05E503000335FA /* TSYCameraViewController.xib */; };
+		8AFD1CCD1C05E503000335FA /* TSYView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD1CC61C05E503000335FA /* TSYView.m */; };
+		8AFD1CCE1C05E503000335FA /* TSYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD1CC81C05E503000335FA /* TSYViewController.m */; };
+		8AFD1CCF1C05E503000335FA /* TSYViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AFD1CC91C05E503000335FA /* TSYViewController.xib */; };
+		8AFD1CD21C05E54C000335FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AFD1CD11C05E54C000335FA /* Assets.xcassets */; };
+		F86F8A438358A47686D56763 /* libPods-TSYTestApp Pro.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9A731B66125CAE0BB9484C /* libPods-TSYTestApp Pro.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		530E30B4DF007C307840974B /* Pods-TSYTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSYTestApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TSYTestApp/Pods-TSYTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		645B9E7B448143780A129B6F /* Pods-TSYTestApp Pro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSYTestApp Pro.release.xcconfig"; path = "Pods/Target Support Files/Pods-TSYTestApp Pro/Pods-TSYTestApp Pro.release.xcconfig"; sourceTree = "<group>"; };
+		689102B53D900A45CFF1AD60 /* Pods-TSYTestApp Pro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSYTestApp Pro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TSYTestApp Pro/Pods-TSYTestApp Pro.debug.xcconfig"; sourceTree = "<group>"; };
+		7B010D4B1912C30343076695 /* Pods-TSYTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSYTestApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TSYTestApp/Pods-TSYTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8A20C2821C034046007D6CA0 /* TSYTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSYTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A20C2861C034046007D6CA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A20C2881C034046007D6CA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8A20C2891C034046007D6CA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8A20C2961C034046007D6CA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AFD1C9B1C05DFD0000335FA /* TSYTestApp Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TSYTestApp Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AFD1CBF1C05E503000335FA /* TSYCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSYCameraView.h; sourceTree = "<group>"; };
+		8AFD1CC01C05E503000335FA /* TSYCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSYCameraView.m; sourceTree = "<group>"; };
+		8AFD1CC11C05E503000335FA /* TSYCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSYCameraViewController.h; sourceTree = "<group>"; };
+		8AFD1CC21C05E503000335FA /* TSYCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSYCameraViewController.m; sourceTree = "<group>"; };
+		8AFD1CC31C05E503000335FA /* TSYCameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSYCameraViewController.xib; sourceTree = "<group>"; };
+		8AFD1CC51C05E503000335FA /* TSYView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSYView.h; sourceTree = "<group>"; };
+		8AFD1CC61C05E503000335FA /* TSYView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSYView.m; sourceTree = "<group>"; };
+		8AFD1CC71C05E503000335FA /* TSYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSYViewController.h; sourceTree = "<group>"; };
+		8AFD1CC81C05E503000335FA /* TSYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSYViewController.m; sourceTree = "<group>"; };
+		8AFD1CC91C05E503000335FA /* TSYViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSYViewController.xib; sourceTree = "<group>"; };
+		8AFD1CD11C05E54C000335FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC9A731B66125CAE0BB9484C /* libPods-TSYTestApp Pro.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TSYTestApp Pro.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F420C4E9C1AF69E606740E66 /* libPods-TSYTestApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TSYTestApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A20C27F1C034046007D6CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC25285976226CEF59237FF /* libPods-TSYTestApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AFD1C981C05DFD0000335FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F86F8A438358A47686D56763 /* libPods-TSYTestApp Pro.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DA1C6E1DFB4AA51B7556610 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B010D4B1912C30343076695 /* Pods-TSYTestApp.debug.xcconfig */,
+				530E30B4DF007C307840974B /* Pods-TSYTestApp.release.xcconfig */,
+				689102B53D900A45CFF1AD60 /* Pods-TSYTestApp Pro.debug.xcconfig */,
+				645B9E7B448143780A129B6F /* Pods-TSYTestApp Pro.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		573B2DAFEF5A42084964F202 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F420C4E9C1AF69E606740E66 /* libPods-TSYTestApp.a */,
+				AC9A731B66125CAE0BB9484C /* libPods-TSYTestApp Pro.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A20C2791C034046007D6CA0 = {
+			isa = PBXGroup;
+			children = (
+				8A20C2841C034046007D6CA0 /* TSYTestApp */,
+				8A20C2831C034046007D6CA0 /* Products */,
+				1DA1C6E1DFB4AA51B7556610 /* Pods */,
+				573B2DAFEF5A42084964F202 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8A20C2831C034046007D6CA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A20C2821C034046007D6CA0 /* TSYTestApp.app */,
+				8AFD1C9B1C05DFD0000335FA /* TSYTestApp Pro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A20C2841C034046007D6CA0 /* TSYTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				8AFD1CD01C05E54C000335FA /* Resources */,
+				8AFD1CBA1C05E503000335FA /* Source */,
+				8A20C2881C034046007D6CA0 /* AppDelegate.h */,
+				8A20C2891C034046007D6CA0 /* AppDelegate.m */,
+				8A20C2851C034046007D6CA0 /* Supporting Files */,
+			);
+			path = TSYTestApp;
+			sourceTree = "<group>";
+		};
+		8A20C2851C034046007D6CA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A20C2861C034046007D6CA0 /* main.m */,
+				8A20C2961C034046007D6CA0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8AFD1CBA1C05E503000335FA /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8AFD1CBB1C05E503000335FA /* Library */,
+				8AFD1CBC1C05E503000335FA /* Models */,
+				8AFD1CBD1C05E503000335FA /* UI */,
+			);
+			path = Source;
+			sourceTree = SOURCE_ROOT;
+		};
+		8AFD1CBB1C05E503000335FA /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		8AFD1CBC1C05E503000335FA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8AFD1CBD1C05E503000335FA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8AFD1CBE1C05E503000335FA /* TSYCameraViewController */,
+				8AFD1CC41C05E503000335FA /* TSYViewController */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		8AFD1CBE1C05E503000335FA /* TSYCameraViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8AFD1CBF1C05E503000335FA /* TSYCameraView.h */,
+				8AFD1CC01C05E503000335FA /* TSYCameraView.m */,
+				8AFD1CC11C05E503000335FA /* TSYCameraViewController.h */,
+				8AFD1CC21C05E503000335FA /* TSYCameraViewController.m */,
+				8AFD1CC31C05E503000335FA /* TSYCameraViewController.xib */,
+			);
+			path = TSYCameraViewController;
+			sourceTree = "<group>";
+		};
+		8AFD1CC41C05E503000335FA /* TSYViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8AFD1CC51C05E503000335FA /* TSYView.h */,
+				8AFD1CC61C05E503000335FA /* TSYView.m */,
+				8AFD1CC71C05E503000335FA /* TSYViewController.h */,
+				8AFD1CC81C05E503000335FA /* TSYViewController.m */,
+				8AFD1CC91C05E503000335FA /* TSYViewController.xib */,
+			);
+			path = TSYViewController;
+			sourceTree = "<group>";
+		};
+		8AFD1CD01C05E54C000335FA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8AFD1CD11C05E54C000335FA /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A20C2811C034046007D6CA0 /* TSYTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A20C2991C034046007D6CA0 /* Build configuration list for PBXNativeTarget "TSYTestApp" */;
+			buildPhases = (
+				1ACD407712F6D602E6F700E1 /* Check Pods Manifest.lock */,
+				8A20C27E1C034046007D6CA0 /* Sources */,
+				8A20C27F1C034046007D6CA0 /* Frameworks */,
+				8A20C2801C034046007D6CA0 /* Resources */,
+				E06706DCCBBA1CB32DB9D0DC /* Embed Pods Frameworks */,
+				5A8BF2AE43DEA33B0FF5173F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSYTestApp;
+			productName = TSYTestApp;
+			productReference = 8A20C2821C034046007D6CA0 /* TSYTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AFD1C9A1C05DFD0000335FA /* TSYTestApp Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AFD1CB11C05DFD0000335FA /* Build configuration list for PBXNativeTarget "TSYTestApp Pro" */;
+			buildPhases = (
+				55BE1F24E715BD25153AEB09 /* Check Pods Manifest.lock */,
+				8AFD1C971C05DFD0000335FA /* Sources */,
+				8AFD1C981C05DFD0000335FA /* Frameworks */,
+				8AFD1C991C05DFD0000335FA /* Resources */,
+				2C2B3C883CC11796B2F9575E /* Embed Pods Frameworks */,
+				261D7DD04551FC4118E2422B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TSYTestApp Pro";
+			productName = "TSYTestApp Pro";
+			productReference = 8AFD1C9B1C05DFD0000335FA /* TSYTestApp Pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A20C27A1C034046007D6CA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Yevgen;
+				TargetAttributes = {
+					8A20C2811C034046007D6CA0 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					8AFD1C9A1C05DFD0000335FA = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 8A20C27D1C034046007D6CA0 /* Build configuration list for PBXProject "TSYTestApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A20C2791C034046007D6CA0;
+			productRefGroup = 8A20C2831C034046007D6CA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A20C2811C034046007D6CA0 /* TSYTestApp */,
+				8AFD1C9A1C05DFD0000335FA /* TSYTestApp Pro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A20C2801C034046007D6CA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AFD1CCC1C05E503000335FA /* TSYCameraViewController.xib in Resources */,
+				8AFD1CD21C05E54C000335FA /* Assets.xcassets in Resources */,
+				8AFD1CCF1C05E503000335FA /* TSYViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AFD1C991C05DFD0000335FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1ACD407712F6D602E6F700E1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		261D7DD04551FC4118E2422B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TSYTestApp Pro/Pods-TSYTestApp Pro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C2B3C883CC11796B2F9575E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TSYTestApp Pro/Pods-TSYTestApp Pro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55BE1F24E715BD25153AEB09 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5A8BF2AE43DEA33B0FF5173F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TSYTestApp/Pods-TSYTestApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E06706DCCBBA1CB32DB9D0DC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TSYTestApp/Pods-TSYTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A20C27E1C034046007D6CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AFD1CCB1C05E503000335FA /* TSYCameraViewController.m in Sources */,
+				8AFD1CCE1C05E503000335FA /* TSYViewController.m in Sources */,
+				8AFD1CCA1C05E503000335FA /* TSYCameraView.m in Sources */,
+				8AFD1CCD1C05E503000335FA /* TSYView.m in Sources */,
+				8A20C28A1C034046007D6CA0 /* AppDelegate.m in Sources */,
+				8A20C2871C034046007D6CA0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AFD1C971C05DFD0000335FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AFD1CB21C05E138000335FA /* AppDelegate.m in Sources */,
+				8AFD1CB91C05E150000335FA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8A20C2971C034046007D6CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8A20C2981C034046007D6CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A20C29A1C034046007D6CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B010D4B1912C30343076695 /* Pods-TSYTestApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				INFOPLIST_FILE = TSYTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yevgen.TSYTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		8A20C29B1C034046007D6CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 530E30B4DF007C307840974B /* Pods-TSYTestApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				INFOPLIST_FILE = TSYTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yevgen.TSYTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		8AFD1CAF1C05DFD0000335FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 689102B53D900A45CFF1AD60 /* Pods-TSYTestApp Pro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					PRO,
+				);
+				INFOPLIST_FILE = "TSYTestApp Pro/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Yevgen.TSYTestApp-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8AFD1CB01C05DFD0000335FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 645B9E7B448143780A129B6F /* Pods-TSYTestApp Pro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					PRO,
+				);
+				INFOPLIST_FILE = "TSYTestApp Pro/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Yevgen.TSYTestApp-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A20C27D1C034046007D6CA0 /* Build configuration list for PBXProject "TSYTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A20C2971C034046007D6CA0 /* Debug */,
+				8A20C2981C034046007D6CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A20C2991C034046007D6CA0 /* Build configuration list for PBXNativeTarget "TSYTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A20C29A1C034046007D6CA0 /* Debug */,
+				8A20C29B1C034046007D6CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AFD1CB11C05DFD0000335FA /* Build configuration list for PBXNativeTarget "TSYTestApp Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AFD1CAF1C05DFD0000335FA /* Debug */,
+				8AFD1CB01C05DFD0000335FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A20C27A1C034046007D6CA0 /* Project object */;
+}

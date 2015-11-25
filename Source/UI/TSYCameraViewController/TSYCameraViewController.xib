@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TSYCameraViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="TSYCameraView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6I2-aO-gg8">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="426"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="chz-bB-486">
+                    <rect key="frame" x="145" y="436" width="30" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="56N-Az-Hxp"/>
+                        <constraint firstAttribute="width" constant="30" id="M5v-kc-6VN"/>
+                    </constraints>
+                    <connections>
+                        <action selector="onMakePhoto:" destination="-1" eventType="touchUpInside" id="Ivh-mz-FCS"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pc6-Rt-4Qi">
+                    <rect key="frame" x="145" y="471" width="30" height="30"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <action selector="onSelectPhoto:" destination="-1" eventType="touchUpInside" id="4Lj-5B-JXe"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="pc6-Rt-4Qi" firstAttribute="width" secondItem="chz-bB-486" secondAttribute="width" id="Din-IL-SrD"/>
+                <constraint firstItem="chz-bB-486" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="KyP-0M-81K"/>
+                <constraint firstItem="6I2-aO-gg8" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="NcQ-aK-KEG"/>
+                <constraint firstItem="pc6-Rt-4Qi" firstAttribute="top" secondItem="chz-bB-486" secondAttribute="bottom" constant="5" id="Nny-Yy-X6d"/>
+                <constraint firstItem="pc6-Rt-4Qi" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Nyv-QH-pEl"/>
+                <constraint firstItem="6I2-aO-gg8" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Pu1-WQ-LWG"/>
+                <constraint firstItem="chz-bB-486" firstAttribute="top" secondItem="6I2-aO-gg8" secondAttribute="bottom" constant="10" id="UcE-Bd-FSb"/>
+                <constraint firstItem="6I2-aO-gg8" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="3:4" id="Y0v-Nd-07J"/>
+                <constraint firstAttribute="trailing" secondItem="6I2-aO-gg8" secondAttribute="trailing" id="aox-mx-eOA"/>
+                <constraint firstItem="pc6-Rt-4Qi" firstAttribute="height" secondItem="chz-bB-486" secondAttribute="height" id="e3h-Xy-iXa"/>
+            </constraints>
+            <connections>
+                <outlet property="makePhotoButton" destination="chz-bB-486" id="XvC-qp-opx"/>
+                <outlet property="photoImageView" destination="6I2-aO-gg8" id="pq9-uO-dPA"/>
+                <outlet property="selectPhotoButton" destination="pc6-Rt-4Qi" id="m7n-1a-cdt"/>
+            </connections>
+            <point key="canvasLocation" x="412" y="321"/>
+        </view>
+    </objects>
+</document>
