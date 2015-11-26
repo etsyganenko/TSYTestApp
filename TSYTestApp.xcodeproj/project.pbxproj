@@ -10,15 +10,28 @@
 		4EC25285976226CEF59237FF /* libPods-TSYTestApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F420C4E9C1AF69E606740E66 /* libPods-TSYTestApp.a */; };
 		8A20C2871C034046007D6CA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A20C2861C034046007D6CA0 /* main.m */; };
 		8A20C28A1C034046007D6CA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A20C2891C034046007D6CA0 /* AppDelegate.m */; };
+		8AE1F2611C070E1900293E3F /* TSYStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE1F25F1C070E1900293E3F /* TSYStartViewController.m */; };
+		8AE1F2621C070E1900293E3F /* TSYStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE1F25F1C070E1900293E3F /* TSYStartViewController.m */; };
+		8AE1F2631C070E1900293E3F /* TSYStartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AE1F2601C070E1900293E3F /* TSYStartViewController.xib */; };
+		8AE1F2641C070E1900293E3F /* TSYStartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AE1F2601C070E1900293E3F /* TSYStartViewController.xib */; };
+		8AE1F2671C070E3000293E3F /* TSYStartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE1F2661C070E3000293E3F /* TSYStartView.m */; };
+		8AE1F2681C070E3000293E3F /* TSYStartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE1F2661C070E3000293E3F /* TSYStartView.m */; };
+		8AE1F27B1C0710ED00293E3F /* TSYCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE1F2771C0710ED00293E3F /* TSYCameraView.m */; };
+		8AE1F27C1C0710ED00293E3F /* TSYCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE1F2771C0710ED00293E3F /* TSYCameraView.m */; };
+		8AE1F27D1C0710ED00293E3F /* TSYCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE1F2791C0710ED00293E3F /* TSYCameraViewController.m */; };
+		8AE1F27E1C0710ED00293E3F /* TSYCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE1F2791C0710ED00293E3F /* TSYCameraViewController.m */; };
+		8AE1F27F1C0710ED00293E3F /* TSYCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AE1F27A1C0710ED00293E3F /* TSYCameraViewController.xib */; };
+		8AE1F2801C0710ED00293E3F /* TSYCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AE1F27A1C0710ED00293E3F /* TSYCameraViewController.xib */; };
 		8AFD1CB21C05E138000335FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A20C2891C034046007D6CA0 /* AppDelegate.m */; };
 		8AFD1CB91C05E150000335FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A20C2861C034046007D6CA0 /* main.m */; };
-		8AFD1CCA1C05E503000335FA /* TSYCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD1CC01C05E503000335FA /* TSYCameraView.m */; };
-		8AFD1CCB1C05E503000335FA /* TSYCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD1CC21C05E503000335FA /* TSYCameraViewController.m */; };
-		8AFD1CCC1C05E503000335FA /* TSYCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AFD1CC31C05E503000335FA /* TSYCameraViewController.xib */; };
-		8AFD1CCD1C05E503000335FA /* TSYView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD1CC61C05E503000335FA /* TSYView.m */; };
-		8AFD1CCE1C05E503000335FA /* TSYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD1CC81C05E503000335FA /* TSYViewController.m */; };
-		8AFD1CCF1C05E503000335FA /* TSYViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AFD1CC91C05E503000335FA /* TSYViewController.xib */; };
 		8AFD1CD21C05E54C000335FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AFD1CD11C05E54C000335FA /* Assets.xcassets */; };
+		8AFD1CDB1C061267000335FA /* TSYLocationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD1CD71C061267000335FA /* TSYLocationView.m */; };
+		8AFD1CDC1C061267000335FA /* TSYLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD1CD91C061267000335FA /* TSYLocationViewController.m */; };
+		8AFD1CDD1C061267000335FA /* TSYLocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AFD1CDA1C061267000335FA /* TSYLocationViewController.xib */; };
+		8AFD1CE01C0612A7000335FA /* TSYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD1CDF1C0612A7000335FA /* TSYViewController.m */; };
+		8AFD1CE11C0612A7000335FA /* TSYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD1CDF1C0612A7000335FA /* TSYViewController.m */; };
+		8AFD1CE41C0612BF000335FA /* TSYLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD1CD91C061267000335FA /* TSYLocationViewController.m */; };
+		8AFD1CE51C0612C1000335FA /* TSYLocationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD1CD71C061267000335FA /* TSYLocationView.m */; };
 		F86F8A438358A47686D56763 /* libPods-TSYTestApp Pro.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9A731B66125CAE0BB9484C /* libPods-TSYTestApp Pro.a */; };
 /* End PBXBuildFile section */
 
@@ -32,18 +45,25 @@
 		8A20C2881C034046007D6CA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8A20C2891C034046007D6CA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8A20C2961C034046007D6CA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AE1F25E1C070E1900293E3F /* TSYStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSYStartViewController.h; sourceTree = "<group>"; };
+		8AE1F25F1C070E1900293E3F /* TSYStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSYStartViewController.m; sourceTree = "<group>"; };
+		8AE1F2601C070E1900293E3F /* TSYStartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSYStartViewController.xib; sourceTree = "<group>"; };
+		8AE1F2651C070E3000293E3F /* TSYStartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSYStartView.h; sourceTree = "<group>"; };
+		8AE1F2661C070E3000293E3F /* TSYStartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSYStartView.m; sourceTree = "<group>"; };
+		8AE1F2761C0710ED00293E3F /* TSYCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSYCameraView.h; sourceTree = "<group>"; };
+		8AE1F2771C0710ED00293E3F /* TSYCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSYCameraView.m; sourceTree = "<group>"; };
+		8AE1F2781C0710ED00293E3F /* TSYCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSYCameraViewController.h; sourceTree = "<group>"; };
+		8AE1F2791C0710ED00293E3F /* TSYCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSYCameraViewController.m; sourceTree = "<group>"; };
+		8AE1F27A1C0710ED00293E3F /* TSYCameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSYCameraViewController.xib; sourceTree = "<group>"; };
 		8AFD1C9B1C05DFD0000335FA /* TSYTestApp Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TSYTestApp Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8AFD1CBF1C05E503000335FA /* TSYCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSYCameraView.h; sourceTree = "<group>"; };
-		8AFD1CC01C05E503000335FA /* TSYCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSYCameraView.m; sourceTree = "<group>"; };
-		8AFD1CC11C05E503000335FA /* TSYCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSYCameraViewController.h; sourceTree = "<group>"; };
-		8AFD1CC21C05E503000335FA /* TSYCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSYCameraViewController.m; sourceTree = "<group>"; };
-		8AFD1CC31C05E503000335FA /* TSYCameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSYCameraViewController.xib; sourceTree = "<group>"; };
-		8AFD1CC51C05E503000335FA /* TSYView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSYView.h; sourceTree = "<group>"; };
-		8AFD1CC61C05E503000335FA /* TSYView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSYView.m; sourceTree = "<group>"; };
-		8AFD1CC71C05E503000335FA /* TSYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSYViewController.h; sourceTree = "<group>"; };
-		8AFD1CC81C05E503000335FA /* TSYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSYViewController.m; sourceTree = "<group>"; };
-		8AFD1CC91C05E503000335FA /* TSYViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSYViewController.xib; sourceTree = "<group>"; };
 		8AFD1CD11C05E54C000335FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AFD1CD61C061267000335FA /* TSYLocationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSYLocationView.h; sourceTree = "<group>"; };
+		8AFD1CD71C061267000335FA /* TSYLocationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSYLocationView.m; sourceTree = "<group>"; };
+		8AFD1CD81C061267000335FA /* TSYLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSYLocationViewController.h; sourceTree = "<group>"; };
+		8AFD1CD91C061267000335FA /* TSYLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSYLocationViewController.m; sourceTree = "<group>"; };
+		8AFD1CDA1C061267000335FA /* TSYLocationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSYLocationViewController.xib; sourceTree = "<group>"; };
+		8AFD1CDE1C0612A7000335FA /* TSYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSYViewController.h; sourceTree = "<group>"; };
+		8AFD1CDF1C0612A7000335FA /* TSYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSYViewController.m; sourceTree = "<group>"; };
 		AC9A731B66125CAE0BB9484C /* libPods-TSYTestApp Pro.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TSYTestApp Pro.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F420C4E9C1AF69E606740E66 /* libPods-TSYTestApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TSYTestApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -128,6 +148,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8AE1F25D1C070E0300293E3F /* TSYStartViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8AE1F25E1C070E1900293E3F /* TSYStartViewController.h */,
+				8AE1F25F1C070E1900293E3F /* TSYStartViewController.m */,
+				8AE1F2601C070E1900293E3F /* TSYStartViewController.xib */,
+				8AE1F2651C070E3000293E3F /* TSYStartView.h */,
+				8AE1F2661C070E3000293E3F /* TSYStartView.m */,
+			);
+			path = TSYStartViewController;
+			sourceTree = "<group>";
+		};
+		8AE1F2751C0710ED00293E3F /* TSYCameraViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8AE1F2781C0710ED00293E3F /* TSYCameraViewController.h */,
+				8AE1F2791C0710ED00293E3F /* TSYCameraViewController.m */,
+				8AE1F27A1C0710ED00293E3F /* TSYCameraViewController.xib */,
+				8AE1F2761C0710ED00293E3F /* TSYCameraView.h */,
+				8AE1F2771C0710ED00293E3F /* TSYCameraView.m */,
+			);
+			path = TSYCameraViewController;
+			sourceTree = "<group>";
+		};
 		8AFD1CBA1C05E503000335FA /* Source */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,32 +199,19 @@
 		8AFD1CBD1C05E503000335FA /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				8AFD1CBE1C05E503000335FA /* TSYCameraViewController */,
 				8AFD1CC41C05E503000335FA /* TSYViewController */,
+				8AE1F25D1C070E0300293E3F /* TSYStartViewController */,
+				8AFD1CD51C0611DD000335FA /* TSYLocationViewController */,
+				8AE1F2751C0710ED00293E3F /* TSYCameraViewController */,
 			);
 			path = UI;
-			sourceTree = "<group>";
-		};
-		8AFD1CBE1C05E503000335FA /* TSYCameraViewController */ = {
-			isa = PBXGroup;
-			children = (
-				8AFD1CBF1C05E503000335FA /* TSYCameraView.h */,
-				8AFD1CC01C05E503000335FA /* TSYCameraView.m */,
-				8AFD1CC11C05E503000335FA /* TSYCameraViewController.h */,
-				8AFD1CC21C05E503000335FA /* TSYCameraViewController.m */,
-				8AFD1CC31C05E503000335FA /* TSYCameraViewController.xib */,
-			);
-			path = TSYCameraViewController;
 			sourceTree = "<group>";
 		};
 		8AFD1CC41C05E503000335FA /* TSYViewController */ = {
 			isa = PBXGroup;
 			children = (
-				8AFD1CC51C05E503000335FA /* TSYView.h */,
-				8AFD1CC61C05E503000335FA /* TSYView.m */,
-				8AFD1CC71C05E503000335FA /* TSYViewController.h */,
-				8AFD1CC81C05E503000335FA /* TSYViewController.m */,
-				8AFD1CC91C05E503000335FA /* TSYViewController.xib */,
+				8AFD1CDE1C0612A7000335FA /* TSYViewController.h */,
+				8AFD1CDF1C0612A7000335FA /* TSYViewController.m */,
 			);
 			path = TSYViewController;
 			sourceTree = "<group>";
@@ -192,6 +223,18 @@
 			);
 			path = Resources;
 			sourceTree = SOURCE_ROOT;
+		};
+		8AFD1CD51C0611DD000335FA /* TSYLocationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8AFD1CD81C061267000335FA /* TSYLocationViewController.h */,
+				8AFD1CD91C061267000335FA /* TSYLocationViewController.m */,
+				8AFD1CDA1C061267000335FA /* TSYLocationViewController.xib */,
+				8AFD1CD61C061267000335FA /* TSYLocationView.h */,
+				8AFD1CD71C061267000335FA /* TSYLocationView.m */,
+			);
+			path = TSYLocationViewController;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -277,9 +320,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AFD1CCC1C05E503000335FA /* TSYCameraViewController.xib in Resources */,
+				8AE1F27F1C0710ED00293E3F /* TSYCameraViewController.xib in Resources */,
+				8AE1F2631C070E1900293E3F /* TSYStartViewController.xib in Resources */,
+				8AFD1CDD1C061267000335FA /* TSYLocationViewController.xib in Resources */,
 				8AFD1CD21C05E54C000335FA /* Assets.xcassets in Resources */,
-				8AFD1CCF1C05E503000335FA /* TSYViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +331,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AE1F2801C0710ED00293E3F /* TSYCameraViewController.xib in Resources */,
+				8AE1F2641C070E1900293E3F /* TSYStartViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,11 +436,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AFD1CCB1C05E503000335FA /* TSYCameraViewController.m in Sources */,
-				8AFD1CCE1C05E503000335FA /* TSYViewController.m in Sources */,
-				8AFD1CCA1C05E503000335FA /* TSYCameraView.m in Sources */,
-				8AFD1CCD1C05E503000335FA /* TSYView.m in Sources */,
+				8AE1F2611C070E1900293E3F /* TSYStartViewController.m in Sources */,
+				8AFD1CDC1C061267000335FA /* TSYLocationViewController.m in Sources */,
+				8AFD1CE01C0612A7000335FA /* TSYViewController.m in Sources */,
+				8AE1F27D1C0710ED00293E3F /* TSYCameraViewController.m in Sources */,
+				8AFD1CDB1C061267000335FA /* TSYLocationView.m in Sources */,
+				8AE1F2671C070E3000293E3F /* TSYStartView.m in Sources */,
 				8A20C28A1C034046007D6CA0 /* AppDelegate.m in Sources */,
+				8AE1F27B1C0710ED00293E3F /* TSYCameraView.m in Sources */,
 				8A20C2871C034046007D6CA0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,7 +452,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AE1F2621C070E1900293E3F /* TSYStartViewController.m in Sources */,
+				8AFD1CE41C0612BF000335FA /* TSYLocationViewController.m in Sources */,
 				8AFD1CB21C05E138000335FA /* AppDelegate.m in Sources */,
+				8AE1F27E1C0710ED00293E3F /* TSYCameraViewController.m in Sources */,
+				8AFD1CE51C0612C1000335FA /* TSYLocationView.m in Sources */,
+				8AFD1CE11C0612A7000335FA /* TSYViewController.m in Sources */,
+				8AE1F2681C070E3000293E3F /* TSYStartView.m in Sources */,
+				8AE1F27C1C0710ED00293E3F /* TSYCameraView.m in Sources */,
 				8AFD1CB91C05E150000335FA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

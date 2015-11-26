@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 
-#import "TSYViewController.h"
+#import "TSYStartViewController.h"
 
 #import <Google/Analytics.h>
 
@@ -28,16 +28,16 @@ static NSString * const kMCGoogleAnalyticsAppTrackingID         = @"";
 
     [[GGLContext sharedInstance] configureWithError:&configureError];
     
-    id<GAITracker> tracker = [[GAI sharedInstance] trackerWithTrackingId:kMCGoogleAnalyticsAppTrackingID];
-    
+    [[GAI sharedInstance] trackerWithTrackingId:kMCGoogleAnalyticsAppTrackingID];
     [[GAI sharedInstance].logger setLogLevel:kGAILogLevelVerbose];
     [GAI sharedInstance].trackUncaughtExceptions = YES;
+    //
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    NSString *name = NSStringFromClass([TSYViewController class]);
+    NSString *name = NSStringFromClass([TSYStartViewController class]);
     
-    TSYViewController *controller = [[TSYViewController alloc] initWithNibName:name bundle:nil];
+    TSYStartViewController *controller = [[TSYStartViewController alloc] initWithNibName:name bundle:nil];
     UINavigationController *navigationController = [UINavigationController new];
     
     [navigationController pushViewController:controller animated:NO];

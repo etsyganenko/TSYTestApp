@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TSYLocationViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="TSYLocationView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Latitude:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="htu-jE-KR8">
+                    <rect key="frame" x="0.0" y="180" width="320" height="18"/>
+                    <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="0.10000000000000001" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Longitude:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VVK-sm-lhs">
+                    <rect key="frame" x="0.0" y="199" width="320" height="18"/>
+                    <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="0.10000000000000001" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Altitude:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PDO-ro-guE">
+                    <rect key="frame" x="0.0" y="218" width="320" height="18"/>
+                    <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="0.10000000000000001" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Horizontal Accuracy:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bna-b3-mpG">
+                    <rect key="frame" x="0.0" y="237" width="320" height="18"/>
+                    <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="0.10000000000000001" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vertical Accuracy:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="END-26-nzD">
+                    <rect key="frame" x="0.0" y="256" width="320" height="18"/>
+                    <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="0.10000000000000001" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Timestamp:" lineBreakMode="wordWrap" numberOfLines="0" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="te7-xV-H1l">
+                    <rect key="frame" x="0.0" y="275" width="320" height="18"/>
+                    <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="0.10000000000000001" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X1P-a1-xou">
+                    <rect key="frame" x="0.0" y="294" width="320" height="20"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="0.40000000000000002" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="Rna-bT-qsb"/>
+                    </constraints>
+                    <state key="normal" title="Location">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="onGetLocation:" destination="-1" eventType="touchUpInside" id="XpT-Tw-vOl"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="te7-xV-H1l" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="2mV-oM-VYb"/>
+                <constraint firstItem="bna-b3-mpG" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="3UF-cb-LuY"/>
+                <constraint firstItem="te7-xV-H1l" firstAttribute="width" secondItem="htu-jE-KR8" secondAttribute="width" id="4mR-WJ-fTj"/>
+                <constraint firstItem="X1P-a1-xou" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="5OG-AL-cKO"/>
+                <constraint firstItem="htu-jE-KR8" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="8Lo-NT-8vS"/>
+                <constraint firstItem="PDO-ro-guE" firstAttribute="top" secondItem="VVK-sm-lhs" secondAttribute="bottom" constant="1" id="9mh-N1-XS3"/>
+                <constraint firstItem="END-26-nzD" firstAttribute="width" secondItem="htu-jE-KR8" secondAttribute="width" id="Fap-hS-Wzo"/>
+                <constraint firstItem="PDO-ro-guE" firstAttribute="width" secondItem="htu-jE-KR8" secondAttribute="width" id="GUC-qe-DIn"/>
+                <constraint firstItem="VVK-sm-lhs" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="J1C-G3-7Nv"/>
+                <constraint firstItem="VVK-sm-lhs" firstAttribute="width" secondItem="htu-jE-KR8" secondAttribute="width" id="JWb-Rd-LTM"/>
+                <constraint firstItem="bna-b3-mpG" firstAttribute="width" secondItem="htu-jE-KR8" secondAttribute="width" id="Ogw-Za-Sca"/>
+                <constraint firstItem="END-26-nzD" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Xlx-Bg-ebw"/>
+                <constraint firstItem="te7-xV-H1l" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="eZr-Qe-i24"/>
+                <constraint firstItem="te7-xV-H1l" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="j62-qF-MKb"/>
+                <constraint firstItem="X1P-a1-xou" firstAttribute="top" secondItem="te7-xV-H1l" secondAttribute="bottom" constant="1" id="lhi-xJ-nKD"/>
+                <constraint firstItem="te7-xV-H1l" firstAttribute="top" secondItem="END-26-nzD" secondAttribute="bottom" constant="1" id="q6R-UJ-MKY"/>
+                <constraint firstItem="VVK-sm-lhs" firstAttribute="top" secondItem="htu-jE-KR8" secondAttribute="bottom" constant="1" id="qde-cW-i3X"/>
+                <constraint firstItem="bna-b3-mpG" firstAttribute="top" secondItem="PDO-ro-guE" secondAttribute="bottom" constant="1" id="sr1-6m-aZY"/>
+                <constraint firstItem="PDO-ro-guE" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="sxg-4v-gXL"/>
+                <constraint firstItem="X1P-a1-xou" firstAttribute="width" secondItem="te7-xV-H1l" secondAttribute="width" id="tLj-3e-XbI"/>
+                <constraint firstItem="END-26-nzD" firstAttribute="top" secondItem="bna-b3-mpG" secondAttribute="bottom" constant="1" id="ygn-LM-21O"/>
+            </constraints>
+            <connections>
+                <outlet property="altitudeLabel" destination="PDO-ro-guE" id="4ef-IL-mRg"/>
+                <outlet property="horizontalAccuracyLabel" destination="bna-b3-mpG" id="aHT-s5-wM8"/>
+                <outlet property="latitudeLabel" destination="htu-jE-KR8" id="E3Z-qN-ORS"/>
+                <outlet property="locationButton" destination="X1P-a1-xou" id="k8d-09-3uq"/>
+                <outlet property="longitudeLabel" destination="VVK-sm-lhs" id="gbL-3t-Izy"/>
+                <outlet property="timestampLabel" destination="te7-xV-H1l" id="P6D-y4-UgL"/>
+                <outlet property="verticalAccuracyLabel" destination="END-26-nzD" id="mq1-JZ-fA1"/>
+            </connections>
+            <point key="canvasLocation" x="240" y="447"/>
+        </view>
+    </objects>
+</document>
